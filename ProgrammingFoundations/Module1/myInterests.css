@@ -1,0 +1,19 @@
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+
+
+td, th{
+    border-style: double;
+    border-color: azure;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.list{
+    font: caption;
+}
