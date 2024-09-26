@@ -1,0 +1,30 @@
+canvas{
+    width: 400pt;
+    height: 200pt;
+    margin: 10px;
+    border: 1px solid lightslategray;
+    
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.btn{
+    background-color: rgb(163, 148, 124);
+    border-radius: 4px;
+    border-style: none;
+    width: 10em;
+    height: 2em;
+    font-weight: bolder;
+}
+
+p{
+    font-weight: bolder;
+}
+
+.file{
+    background-color: rgb(163, 148, 124);
+    border-radius: 4px;
+}
+

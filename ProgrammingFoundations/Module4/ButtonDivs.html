@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buttons & Divs</title>
+</head>
+<body>
+    <h1>Exercise Buttons and Divs for Coursera Course</h1>
+    <div id="div1">
+        DIV 1
+    </div>
+    <div id="div2">
+        DIV 2
+    </div>
+    <input type="button" value="Click ME!" id="btnClickMe" onclick="alertBtn()">
+    <input type="button" value="Answer!" id="btnQuestion" onclick="confirmBtn()">
+    <p id="msg"></p>
+   <script>
+    function alertBtn() {
+      alert("I am an alert!");
+    }
+    </script>
+    <script>
+        function confirmBtn(){
+            let choice = confirm("Are you ok?")
+            let msg = ""
+            if (choice) {
+                msg= "You pressed OK!"
+            } else{
+                msg = "Are you sure you want to cancel?"
+            }
+            document.getElementById("msg").innerText= msg
+        }
+    </script>
+
+</body>
+</html>

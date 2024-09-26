@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="uploadImages.js"></script>
+    <script type="text/javascript" src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <link rel="stylesheet" href="uploadImages.css">
+    <title>Upload Images</title>
+</head>
+<body>
+    <canvas id="canvasColor"></canvas>
+    <canvas id="canvasGray"></canvas>
+    <div>
+        <p>Filename:
+        <input type="file" id="img" accept="image/*" onchange="upload()">
+        <input type="button" value="Make Gray" id="btnMakeGray" onclick="makeGray()">
+        </p>
+    </div>
+</body>
+</html>
