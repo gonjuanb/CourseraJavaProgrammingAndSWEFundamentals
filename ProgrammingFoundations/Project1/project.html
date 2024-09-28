@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <script type="text/javascript" src="project.js"></script>
+    <script type="text/javascript" src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <title>Project 1</title>
+</head>
+<body>
+    <h1>Filter Fun</h1>
+    <canvas id="canvas"></canvas>
+    <div>
+        <h2>Load Image</h2>
+        <input type="file" id="imgLoad" accept="image/*" onchange="uploadImage()" class="file">
+    </div>
+    <div>
+        <h2>Choose Filter</h2>
+        <input type="button" value="Grayscale" id="btnGrayscale" onclick="doGrayscale()" class="btn">
+        <input type="button" value="Red" id="btnRed" onclick="doRed()" class="btn">
+        <input type="button" value="Green" id="btnGreen" onclick="doCrazyFilter()" class="btn">
+    </div>
+    <div>
+        <input type="button" value="Reset Image" id="btnReset" onclick="reset()">
+    </div>
+</body>
+</html>
